@@ -1,0 +1,57 @@
+{
+  "inventory": [
+    {
+      "med_id": "med_amlodipine_01",
+      "profile_id": "usr_ramesh_father",
+      "medication_name": "Amlodipine",
+      "dosage": "5mg",
+      "daily_frequency": 2,
+      "pills_per_dose": 1,
+      "current_stock": 4,
+      "low_stock_threshold_days": 3,
+      "days_remaining": 2,
+      "trigger_reorder": true,
+      "schedule_times": ["08:00 AM", "08:00 PM"],
+      "linked_rx_id": "rx_hypertension_01"
+    },
+    {
+      "med_id": "med_metformin_02",
+      "profile_id": "usr_ramesh_father",
+      "medication_name": "Metformin",
+      "dosage": "500mg",
+      "daily_frequency": 1,
+      "pills_per_dose": 1,
+      "current_stock": 20,
+      "low_stock_threshold_days": 3,
+      "days_remaining": 20,
+      "trigger_reorder": false,
+      "schedule_times": ["01:00 PM"],
+      "linked_rx_id": "rx_hypertension_01"
+    }
+  ],
+  "refill_orders": [
+    {
+      "order_id": "ord_refill_908",
+      "vault_id": "vlt_sharma_101",
+      "auto_generated": true,
+      "triggered_by_profile_id": "usr_ramesh_father",
+      "status": "Out for Delivery",
+      "attached_rx_id": "rx_hypertension_01",
+      "delivery_partner": {
+        "pharmacy_name": "Apollo Pharmacy - Indiranagar Branch",
+        "distance_km": 2.4,
+        "eta_mins": 35
+      },
+      "verification_pin": "4821",
+      "items": [
+        {
+          "medication_name": "Amlodipine 5mg",
+          "quantity_packs": 1,
+          "variant_selected": "Generic",
+          "generic_substitute_name": "Amlosafe 5mg",
+          "price_inr": 45.00
+        }
+      ]
+    }
+  ]
+}
