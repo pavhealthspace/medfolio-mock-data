@@ -1,0 +1,68 @@
+{
+  "vault": {
+    "vault_id": "vlt_sharma_101",
+    "vault_name": "Sharma Family Vault",
+    "created_at": "2026-09-01T10:00:00Z"
+  },
+  "current_session": {
+    "logged_in_user_id": "usr_rahul_01",
+    "active_role": "Primary Manager"
+  },
+  "family_members": [
+    {
+      "id": "usr_rahul_01",
+      "name": "Rahul Sharma",
+      "age": 32,
+      "gender": "Male",
+      "email": "rahul.sharma@example.com",
+      "phone": "+919876543210",
+      "role": "Primary Manager",
+      "is_ghost_profile": false,
+      "status": "Active",
+      "medical_file": {
+        "blood_group": "O+",
+        "emergency_contact": "+919876543211",
+        "aadhaar_number": "[Aadhaar Redacted]",
+        "allergies": ["Penicillin"],
+        "chronic_conditions": ["None"]
+      }
+    },
+    {
+      "id": "usr_ramesh_father",
+      "name": "Ramesh Sharma (Father)",
+      "age": 64,
+      "gender": "Male",
+      "email": "ramesh.sharma@example.com",
+      "phone": "+919812345678",
+      "role": "Standard Member",
+      "is_ghost_profile": true,
+      "status": "Pending OTP Verification",
+      "created_by": "usr_rahul_01",
+      "medical_file": {
+        "blood_group": "B+",
+        "emergency_contact": "+919876543210",
+        "aadhaar_number": "[Aadhaar Redacted]",
+        "allergies": ["Sulfa Drugs"],
+        "chronic_conditions": ["Hypertension", "Type 2 Diabetes"]
+      }
+    },
+    {
+      "id": "usr_priya_02",
+      "name": "Priya Sharma",
+      "age": 29,
+      "gender": "Female",
+      "email": "priya.sharma@example.com",
+      "phone": "+919898989898",
+      "role": "Standard Member",
+      "is_ghost_profile": false,
+      "status": "Active",
+      "medical_file": {
+        "blood_group": "A+",
+        "emergency_contact": "+919876543210",
+        "aadhaar_number": "[Aadhaar Redacted]",
+        "allergies": [],
+        "chronic_conditions": ["Asthma"]
+      }
+    }
+  ]
+}
