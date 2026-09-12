@@ -1,6 +1,17 @@
 [
+  
   {
     "rx_id": "rx_hypertension_01",
+    "tagged_profile_id": "usr_rahul_sharma",
+    "doctor_name": "Dr. V. K. Gupta",
+    "clinic_name": "Apollo Clinic",
+    "file_url": "https://example.com/prescriptions/rx_rahul_hypertension.pdf",
+    "issued_date": "2026-08-15",
+    "expiry_date": "2026-11-15",
+    "linked_medications": ["Amlodipine 5mg", "Metformin 500mg"]
+  },
+  {
+    "rx_id": "rx_hypertension_02",
     "tagged_profile_id": "usr_ramesh_father",
     "doctor_name": "Dr. V. K. Gupta",
     "clinic_name": "Apollo Clinic",
@@ -10,8 +21,8 @@
     "linked_medications": ["Amlodipine 5mg", "Metformin 500mg"]
   },
   {
-    "rx_id": "rx_asthma_02",
-    "tagged_profile_id": "usr_priya_02",
+    "rx_id": "rx_asthma_03",
+    "tagged_profile_id": "usr_priya_03",
     "doctor_name": "Dr. Ananya Roy",
     "clinic_name": "Fortis Care",
     "file_url": "https://example.com/prescriptions/rx_priya_asthma.pdf",
